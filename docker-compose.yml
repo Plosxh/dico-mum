@@ -1,7 +1,7 @@
 version: '2'
 services:
   dicomum:
-    image: mrraph/dicomum
+    image: mrraph/dico-mum
     restart: always
     environment:
       SLACK_TOKEN: ${SLACK_TOKEN}
