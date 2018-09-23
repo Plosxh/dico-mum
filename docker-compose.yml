@@ -1,0 +1,7 @@
+version: '2'
+services:
+  dicomum:
+    image: mrraph/dicomum
+    restart: always
+    environment:
+      SLACK_TOKEN: ${SLACK_TOKEN}
