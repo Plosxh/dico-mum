@@ -5,3 +5,6 @@ services:
     restart: always
     environment:
       SLACK_TOKEN: ${SLACK_TOKEN}
+      ACCESS_KEY: ${ACCESS_KEY}
+      SECRET_KEY: ${SECRET_KEY}
+
